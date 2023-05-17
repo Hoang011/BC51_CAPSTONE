@@ -1,0 +1,70 @@
+* {
+    font-family: 'Jost', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+
+/* HOANG CSS */
+
+.priceService{
+    background-color: red;
+}
+.freePackage,
+.proPackage{
+    background-color: white;
+    /* margin: 30px 0; */
+    align-self: center;
+    border-radius: 6px;
+}
+.priceService__content ul li{
+    list-style-type: none;
+    padding: 10px 0;
+}
+.freePackage__item-top{
+    padding-top: 30px;
+}
+
+.freePackage__item-top h4{
+    font-size: 40px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 600;
+    margin: 15px 0 20px;
+    color: #189A46;
+}
+.freePackage__item-top h6{
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.freePackage__item-top h4 label{
+    font-size: 25px;
+    color: #189A46;
+    vertical-align: text-top;
+}
+.freePackage__item-top h4 span{
+    font-size: 20px;
+    color: gray;
+    font-weight: 300;
+}
+.freePackage ul{
+    padding: 30px;
+}
+.freePackage ul{
+    padding: 30px;
+}
+.priceService__content .buy_button button{
+    color: white;
+    font-size: 19px;
+    background-color: #189A46;
+    border-radius: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-bottom: 30px;
+}
+.priceService__content .standardPackage__item-top{
+    background-color: #189A46;
+}

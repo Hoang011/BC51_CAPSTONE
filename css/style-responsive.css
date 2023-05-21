@@ -1,0 +1,22 @@
+/* header */
+
+
+@media screen and (max-width: 991px){
+    header .navbar .navbar-toggler{
+        background-color: #189A46;
+    }
+    header .navbar span::before {
+        font-size: 30px;
+        color: white;
+    }
+
+}
+
+/* carousel */
+
+@media screen and (max-width: 991px){
+    .carousel-item{
+        max-height: none;
+        position: unset;
+    }
+}

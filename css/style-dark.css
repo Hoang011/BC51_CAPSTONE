@@ -1,0 +1,108 @@
+/* cac mau khi bat dark mode */
+
+/* header */
+body.dark header{
+    background-color: #151515;
+}
+body.dark{
+    background-color: #151515;
+}
+body.dark .navbar-nav .nav-item .nav-link,body.dark #switch-mode{
+    color: white;
+}
+body.dark .nav-item .nav-link .btnfirst{
+    background-color: #222222;
+}
+body.dark .nav-item .dropdown-menu{
+    background-color: #222222;
+}
+body.dark .nav-item .dropdown-item{
+    color: white;
+    transition: all .5s ease;
+}
+body.dark .nav-item .dropdown-item:focus, .dropdown-item:hover{
+    background: none;
+}
+body.dark .nav-item .dropdown-item:hover{
+    color: #189A46;
+}
+body.dark header .navbar-nav .nav-item .nav-link:hover{
+    color: #189A46;
+}
+body.dark header .nav-item .dropdown-menu::before{
+    background-color: #222222;
+}
+body.dark header .navbar-nav .dropdown i{
+    color: #fff;
+}
+
+/* aboutUs */
+
+
+body.dark .aboutUs .container h3{
+    color: #DDDDDD;
+}
+body.dark .aboutUs .container p{
+    color: #AA9E91;
+}
+body.dark .readMore{
+    color: #DDDDDD;
+}
+
+/* feature */
+
+body.dark .feature{
+    background-color: #222222;
+}
+body.dark .feature .col-lg-4{
+    background-color: #222222;
+}
+body.dark .readMore:hover{
+    color: #189A46;
+    text-decoration: none;
+}
+body.dark .col-content{
+    background-color: #151515;
+}
+body.dark .col-content:hover{
+    background-color: #222222;
+}
+body.dark .col-content h4 a{
+    color: #DDDDDD;
+}
+body.dark .col-content p{
+    color: #AA9E91;
+}
+
+/* service */
+
+body.dark .service .col-text h3{
+    color: #DDDDDD;
+}
+body.dark .service .col-text p{
+    color: #AA9E91;
+}
+body.dark .service .col-text li{
+    color: #DDDDDD;
+}
+body.dark .service .col-text i{
+    background-color: #222222;
+}
+
+/* num */
+
+.num .col-lg-3 p{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+}
+.num .col-lg-3 h4{
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+    margin-top: 10px;
+    opacity: 0.8;
+    font-weight: 400;
+}

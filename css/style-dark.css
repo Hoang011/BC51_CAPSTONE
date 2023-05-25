@@ -89,20 +89,37 @@ body.dark .service .col-text i{
     background-color: #222222;
 }
 
-/* num */
 
-.num .col-lg-3 p{
-    font-size: 50px;
-    line-height: 60px;
-    font-weight: 600;
-    color: #fff;
-    margin-top: 30px;
+/* priceService  */
+body.dark .priceService h3{
+    color: #DDDDDD;
 }
-.num .col-lg-3 h4{
-    font-size: 20px;
-    line-height: 25px;
-    color: #fff;
-    margin-top: 10px;
-    opacity: 0.8;
-    font-weight: 400;
+body.dark .priceService .freePackage__item{
+    background-color: #151515;
+}
+body.dark .priceService .freePackage__item-top h6{
+    color: #DDDDDD;
+}
+body.dark .priceService .freePackage__item-bottom li{
+    color: #AA9E91;
+}
+body.dark .priceService .standardPackage__item-bottom{
+    background-color: #151515;
+}
+body.dark .priceService .package__list li{
+    color: #AA9E91;
+}
+body.dark .priceService .proPackage__item {
+    background-color: #151515;
+}
+body.dark .priceService .proPackage__item-top h6{
+    color: #DDDDDD;
+}
+/* videoPopup */
+
+body.dark .title h3{
+    color: #DDDDDD;
+}
+body.dark .title p{
+    color: #AA9E91;
 }

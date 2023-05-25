@@ -55,7 +55,7 @@
         background-color: #189A46;
     }
     header .navbar span::before {
-        font-size: 31px;
+        font-size: 24px;
         color: white;
     }
 }

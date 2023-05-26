@@ -496,7 +496,9 @@ header .navbar-nav .nav-item .nav-link #switch-mode{
     padding: 10px 20px;
     border-radius: 10px;
 }
-
+.freePackage, .proPackage {
+    border-radius: 10px;
+}
 /* VIDEO POPUP  */
 .video__content {
     position: relative;
@@ -701,6 +703,9 @@ div#small-dialog iframe {
 
 .updated__main .updated__content form input[type=email]:focus {
     border: 1px solid #189A46 !important;
+}
+.updated .updated__main .updated__title .title p {
+    margin-top: 20px;
 }
 
 .btn-style {

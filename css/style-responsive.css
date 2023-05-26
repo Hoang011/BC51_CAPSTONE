@@ -61,6 +61,15 @@
 }
 
 
+/* HOANG REPONSIVE */
 
+@media screen and (max-width: 667px){
+    .updated__main .updated__content form {
+        flex-direction: column;
+    }
+    .updated__main .updated__content form input[type=email] {
+       margin-bottom: 20px;
+    }
+}
 
 

@@ -123,3 +123,14 @@ body.dark .title h3{
 body.dark .title p{
     color: #AA9E91;
 }
+
+/* DARK CSS HOANG */
+body.dark .comment_slide .comment__silde-content .item .item__content {
+    background-color: black;
+}
+body.dark .item__content-bottom h6 {
+   color: white;
+}
+body.dark .comment_slide .comment__silde-content .item .item__content .item__content-top q{
+    color: #696969;
+}

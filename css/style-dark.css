@@ -125,12 +125,15 @@ body.dark .title p{
 }
 
 /* DARK CSS HOANG */
-body.dark .comment_slide .comment__silde-content .item .item__content {
+body.dark .comment_slide .comment__silde-content .item__content {
     background-color: black;
 }
 body.dark .item__content-bottom h6 {
    color: white;
 }
-body.dark .comment_slide .comment__silde-content .item .item__content .item__content-top q{
+body.dark .comment_slide .comment__silde-content .item__content .item__content-top q{
     color: #696969;
 }
+body.dark .item__content-bottom p {
+    color: #696969;
+ }

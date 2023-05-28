@@ -51,261 +51,245 @@
 <body>
   <header class="main-header fixed-top">
     <nav class="navbar navbar-expand-sm container">
-          <a class="navbar-brand" href="#">Pooch Care</a>
-          <button class="navbar-toggler collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon fa-solid fa-bars"></span>
-            </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto" >
-              <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-          <a class="nav-link" href="#">Service</a>
-              </li>
-              <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
-              </li>
-              <li class="nav-item dropdown">
-                  <a
-            class="nav-link"
-            href="#"
-            id="navbardrop"
-            data-toggle="dropdown"
-          >
-            Pages
-                  </a>
-              <i class="bi bi-chevron-down"></i>
-          
-          <div class="dropdown-menu">
-            <a class="dropdown-item " href="#">Blog Posts</a>
-            <a class="dropdown-item " href="#">Landing Page</a>
-          </div>
-              </li>
-              <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-          <a class="nav-link buttonModal" href="#">
-            <!-- Button trigger modal -->
-            <button
-              type="button"
-              class="btn btnfirst"
-              data-toggle="modal"
-              data-target="#exampleModalCenter"
-            >
-              <i class="bi bi-search text-success"></i>
-            </button>
+      <a class="navbar-brand" href="#">Pooch Care</a>
+      <button class="navbar-toggler collapsed bg-gradient" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon fa-solid fa-bars"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown">
+              Pages
+            </a>
+            <i class="bi bi-chevron-down"></i>
 
-            <!-- Modal -->
-            <div
-              class="modal fade"
-              id="exampleModalCenter"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="exampleModalCenterTitle"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-label="Close"
-                    >
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-footer">
-                    <div class="input-group input-group-lg">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Search..."
-                        aria-label="Recipient's username"
-                        aria-describedby="basic-addon2"
-                      />
-                      <div class="input-group-append">
-                        <button class="btn" type="button">Search</button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item " href="#">Blog Posts</a>
+              <a class="dropdown-item " href="#">Landing Page</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link buttonModal" href="#">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btnfirst" data-toggle="modal" data-target="#exampleModalCenter">
+                <i class="bi bi-search text-success"></i>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-footer">
+                      <div class="input-group input-group-lg">
+                        <input type="text" class="form-control" placeholder="Search..."
+                          aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                        <div class="input-group-append">
+                          <button class="btn" type="button">Search</button>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </a>
-              </li>
-              <li class="nav-item">
-          <a class="nav-link darkmode" href="#">
-            <button id="switch-mode"><i class="bi bi-moon"></i></button>
-          </a>
-              </li>
-              </ul>
-          </div> 
-      </nav>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link darkmode" href="#">
+              <button id="switch-mode"><i class="bi bi-moon"></i></button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
   <section class="carousel">
-          <div class="owl-carousel owl-theme">
-              <div class="item">
-                  <div class="carousel-bg"></div>
-                  <img src="./img/banner1.jpg" alt="First slide">
-                  <div class="carousel-caption">
-                      <h5>Quality Things for Loving Pets</h5>
-                      <p>Keeps Your Pet Smiling</p>
-                      <button button type="button" class="btn btn-white btn-lg mr-1 ">Read More</button>
-                      <button type="button" class="btn btn-outline-light btn-lg">Contact Us</button>
-                  </div>
-              </div>
-              <div class="item">
-                  <div class="carousel-bg"></div>
-                  <img src="./img/banner2.jpg" alt="First slide">
-                  <div class="carousel-caption slide2">
-                      <h5>Delivering happiness for Pets</h5>
-                      <p>We help your Projects</p>
-                      <button   button type="button" class="btn btn-white btn-lg mr-1 ">Read More</button>
-                      <button type="button" class="btn btn-outline-light btn-lg">Contact Us</button>
-                  </div>
-              </div>
-              <div class="item">
-                  <div class="carousel-bg"></div>
-                  <img src="./img/banner1.jpg" alt="First slide">
-                  <div class="carousel-caption ">
-                      <h5>Quality Things for Loving Pets</h5>
-                      <p>Keeps Your Pet Smiling</p>
-                      <button   button type="button" class="btn btn-white btn-lg mr-1 ">Read More</button>
-                      <button type="button" class="btn btn-outline-light btn-lg">Contact Us</button>
-                  </div>
-              </div>
-              <div class="item">
-                  <div class="carousel-bg"></div>
-                  <img src="./img/banner1.jpg" alt="First slide">
-                  <div class="carousel-caption slide4">
-                      <h5>Delivering happiness for Pets</h5>
-                      <p>We help your Projects</p>
-                      <button   button type="button" class="btn btn-white btn-lg mr-1 ">Read More</button>
-                      <button type="button" class="btn btn-outline-light btn-lg">Contact Us</button>
-                  </div>
-              </div>
-          </div>
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <div class="carousel-bg"></div>
+        <img src="./img/banner1.jpg" alt="First slide">
+        <div class="carousel-caption">
+          <h5>Quality Things for Loving Pets</h5>
+          <p>Keeps Your Pet Smiling</p>
+          <button button type="button" class="btn btn-white btn-lg mr-1 ">Read More</button>
+          <button type="button" class="btn btn-outline-light btn-lg">Contact Us</button>
+        </div>
+      </div>
+      <div class="item">
+        <div class="carousel-bg"></div>
+        <img src="./img/banner2.jpg" alt="First slide">
+        <div class="carousel-caption slide2">
+          <h5>Delivering happiness for Pets</h5>
+          <p>We help your Projects</p>
+          <button button type="button" class="btn btn-white btn-lg mr-1 ">Read More</button>
+          <button type="button" class="btn btn-outline-light btn-lg">Contact Us</button>
+        </div>
+      </div>
+      <div class="item">
+        <div class="carousel-bg"></div>
+        <img src="./img/banner1.jpg" alt="First slide">
+        <div class="carousel-caption ">
+          <h5>Quality Things for Loving Pets</h5>
+          <p>Keeps Your Pet Smiling</p>
+          <button button type="button" class="btn btn-white btn-lg mr-1 ">Read More</button>
+          <button type="button" class="btn btn-outline-light btn-lg">Contact Us</button>
+        </div>
+      </div>
+      <div class="item">
+        <div class="carousel-bg"></div>
+        <img src="./img/banner1.jpg" alt="First slide">
+        <div class="carousel-caption slide4">
+          <h5>Delivering happiness for Pets</h5>
+          <p>We help your Projects</p>
+          <button button type="button" class="btn btn-white btn-lg mr-1 ">Read More</button>
+          <button type="button" class="btn btn-outline-light btn-lg">Contact Us</button>
+        </div>
+      </div>
+    </div>
   </section>
   <section class="aboutUs py-5">
-      <div class="container">
-          <div class="row py-3 text-center">
-              <div class="col">
-                  <h6 class="text-danger">ABOUT US</h6>
-                  <h3>We love your pets like they are our own</h3>
-                  <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem
-                      tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-                      Nulla mollis dapibus nunc, ut rhoncus
-                      turpis sodales quis. </p>
-                  <a class="readMore" href="read">Read More</a>
-              </div>
-          </div>
+    <div class="container">
+      <div class="row py-3 text-center">
+        <div class="col">
+          <h6 class="text-danger">ABOUT US</h6>
+          <h3>We love your pets like they are our own</h3>
+          <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem
+            tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+            Nulla mollis dapibus nunc, ut rhoncus
+            turpis sodales quis. </p>
+          <a class="readMore" href="read">Read More</a>
+        </div>
       </div>
+    </div>
   </section>
   <section class="feature py-5 align-items ">
-      <div class="container">
+    <div class="container">
       <div class="row justify-content-center">
-          <div class="col-lg-4 col-sm-6">
-              <div class="col-content">
-              <i class="fa-solid fa-snowflake"></i>
-              <h4><a href="">Dog Walking</a></h4>
-              <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
-              <a class="readMore" href="">Read More</a>
-          </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-              <div class="col-content">
-              <i class="fa-solid fa-utensils"></i>
-            <h4><a href="">Healthy Meals</a></h4>
-            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+        <div class="col-lg-4 col-sm-6">
+          <div class="col-content">
+            <i class="fa-solid fa-snowflake"></i>
+            <h4><a href="">Dog Walking</a></h4>
+            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut
+              blandit eu leo.</p>
             <a class="readMore" href="">Read More</a>
           </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="col-content">
+            <i class="fa-solid fa-utensils"></i>
+            <h4><a href="">Healthy Meals</a></h4>
+            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut
+              blandit eu leo.</p>
+            <a class="readMore" href="">Read More</a>
           </div>
-          <div class="col-lg-4 col-sm-6">
-              <div class="col-content">
-              <i class="fa-solid fa-hands"></i>
-              <h4><a href="">Pet Sitting</a></h4>
-              <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
-              <a class="readMore" href="">Read More</a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="col-content">
+            <i class="fa-solid fa-hands"></i>
+            <h4><a href="">Pet Sitting</a></h4>
+            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut
+              blandit eu leo.</p>
+            <a class="readMore" href="">Read More</a>
           </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="col-content">
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="col-content">
             <i class="fa-solid fa-sitemap"></i>
             <h4><a href="">Pet Sitting</a></h4>
-            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut
+              blandit eu leo.</p>
             <a class="readMore" href="">Read More</a>
-        </div>
+          </div>
         </div>
         <div class="col-lg-4 col-sm-6">
-            <div class="col-content">
+          <div class="col-content">
             <i class="fa-solid fa-shower"></i>
             <h4><a href="">Pet Sitting</a></h4>
-            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut
+              blandit eu leo.</p>
             <a class="readMore" href="">Read More</a>
-        </div>
+          </div>
         </div>
         <div class="col-lg-4 col-sm-6">
-            <div class="col-content">
+          <div class="col-content">
             <i class="fa-solid fa-user-doctor"></i>
             <h4><a href="">Pet Sitting</a></h4>
-            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut
+              blandit eu leo.</p>
             <a class="readMore" href="">Read More</a>
-        </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <section class="service py-5">
-      <div class="container">
-          <div class="row py-md-5">
-            <div class="col-lg-6">
-              <div class="col-img">
-                  <img src="./img/ab.jpg" alt="">
-              </div>
-            </div>
-            <div class="col-lg-6 align-self-center">
-              <div class="col-text mx-1">
-                  <h6 class="text-danger">WHY CHOOSE US</h6>
-                  <h3>What We Offer For You</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.Lorem ipsum dolor sit amet, consectetur adipisicingelit.</p>
-                  <ul>
-                      <li><span><i class="fa-solid fa-check"></i></span>Certified Groomer</li>
-                      <li><span><i class="fa-solid fa-check"></i></span>10 Years of Experience</li>
-                      <li><span><i class="fa-solid fa-check"></i></span>Pet Lover</li>
-                      <li><span><i class="fa-solid fa-check"></i></span>Customer Supports</li>
-                      <li><span><i class="fa-solid fa-check"></i></span>Veterinary Help</li>
-                  </ul>
-              </div>
-            </div>
+    <div class="container">
+      <div class="row py-md-5">
+        <div class="col-lg-6">
+          <div class="col-img">
+            <img src="./img/ab.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 align-self-center">
+          <div class="col-text mx-1">
+            <h6 class="text-danger">WHY CHOOSE US</h6>
+            <h3>What We Offer For You</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.Lorem ipsum dolor sit amet, consectetur
+              adipisicingelit.</p>
+            <ul>
+              <li><span><i class="fa-solid fa-check"></i></span>Certified Groomer</li>
+              <li><span><i class="fa-solid fa-check"></i></span>10 Years of Experience</li>
+              <li><span><i class="fa-solid fa-check"></i></span>Pet Lover</li>
+              <li><span><i class="fa-solid fa-check"></i></span>Customer Supports</li>
+              <li><span><i class="fa-solid fa-check"></i></span>Veterinary Help</li>
+            </ul>
+          </div>
+        </div>
   </section>
   <section class="num py-5 bg-success">
-      <div class="container py-3">
-          <div class="row text-center">
-              <div class="col-lg-3">
-                  <p class="counter">730</p>
-                  <h4>Happy Clients</h4>
-              </div>
-              <div class="col-lg-3">
-                  <p class="counter">80</p>
-                  <h4>Professionals</h4>
-              </div>
-              <div class="col-lg-3">
-                  <p class="counter">812</p>
-                  <h4>Adopted Pets</h4>
-              </div>
-              <div class="col-lg-3">
-                  <p class="counter">90</p>
-                  <h4>Awards</h4>
-              </div>
-            </div>
+    <div class="container py-3">
+      <div class="row text-center">
+        <div class="col-lg-3">
+          <p class="counter">730</p>
+          <h4>Happy Clients</h4>
+        </div>
+        <div class="col-lg-3">
+          <p class="counter">80</p>
+          <h4>Professionals</h4>
+        </div>
+        <div class="col-lg-3">
+          <p class="counter">812</p>
+          <h4>Adopted Pets</h4>
+        </div>
+        <div class="col-lg-3">
+          <p class="counter">90</p>
+          <h4>Awards</h4>
+        </div>
       </div>
+    </div>
   </section>
   <!-- NGUYEN MANH HOANG -->
   <!-- PRICE  -->
@@ -422,26 +406,8 @@
         <h6>TESTIMONIALS</h6>
         <h3>Happy Clients & Feedbacks</h3>
       </div>
-      <div class="comment__silde-content owl-carousel owl-theme">
-        <div class="item">
-          <div class="item__content">
-            <div class="item__content-top">
-              <blockquote>
-                <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
-                  voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
-                  Dolores molestias adipisci dolor sit amet!.</q>
-              </blockquote>
-            </div>
-            <div class="item__content-bottom">
-              <div class="item__img">
-                <img src="./img/f1.jpg" alt="">
-              </div>
-              <div class="item__info">
-                <h6>John wilson</h6>
-                <p>Example City</p>
-              </div>
-            </div>
-          </div>
+      <div class="comment__slide-content">
+        <div id="owl-two" class=" comment__silde-content owl-carousel owl-theme">
           <div class="item__content">
             <div class="item__content-top">
               <blockquote>
@@ -460,8 +426,6 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="item">
           <div class="item__content">
             <div class="item__content-top">
               <blockquote>
@@ -498,8 +462,6 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="item">
           <div class="item__content">
             <div class="item__content-top">
               <blockquote>
@@ -538,7 +500,7 @@
           </div>
         </div>
       </div>
-
+    
     </div>
   </section>
   <!-- UPDATED  -->
@@ -548,7 +510,7 @@
         <div class="title text-center">
           <h3> Stay Updated</h3>
           <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis
-            dapibus nunc, ut rhoncus turpis sodales quis. Integer sit  amet mattis quam.</p>
+            dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
         </div>
       </div>
       <div class="updated__content text-center">
@@ -689,7 +651,29 @@
 
   <!-- owl carousel -->
   <script src="./js/owl.carousel.min.js"></script>
-  
+  <script>
+    $('#owl-two').owlCarousel({
+      loop: true,
+      items: 4,
+      nav: false,
+      autoplay: true,
+      smartSpeed: 300,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 1
+        },
+        1000: {
+          margin:20,
+          items: 2
+        },
+       
+      }
+    })
+
+  </script>
   <script>
     $('.owl-carousel').owlCarousel({
       loop: true,
@@ -706,11 +690,13 @@
         },
         1000: {
           items: 1
-        }
+        },
+       
       }
     })
 
   </script>
+
 
   <!-- jQuery count up -->
   <script src="./js/jquery.countup.min.js"></script>
@@ -767,6 +753,8 @@
   <script>
     new WOW().init();
   </script>
+  <!-- slide carousel  -->
+
   <!-- backtotop  -->
   <script>
     (document).ready(function () {
